@@ -1,0 +1,25 @@
+.container{
+    width:1242.33px;
+    height:240px;
+    margin: 100px auto;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap:95px;
+}
+
+.title{
+    font-size: 42px;
+    font-weight: 600;
+}
+
+#bold-text{
+    color:#00C397;
+}
+.company-logo{
+    display: flex;
+    gap:100px;
+}
