@@ -1,15 +1,30 @@
 .test-container{
-    width:1308px;
-    height:705px;
-    margin:auto auto;
+   max-width: 100%;
+   display: flex;
+   justify-content: center;
 }
 
 .test-content{
-    
     display: flex;
     gap:70px;
 }
 
+@media screen and (max-width : 1350px){
+    .test-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:80px;
+    }
+
+    /* .test-left-content{
+        display: flex;
+        flex-direction: column; */
+        /* justify-content: center;
+        align-items: center; */
+    /* } */
+}
 .test-left-content{
     display: flex;
     flex-direction: column;
