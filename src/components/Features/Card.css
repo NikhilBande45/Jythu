@@ -1,4 +1,5 @@
 .card-container{
+    /* width:100%; */
     position: relative;
     object-fit: cover;
     width:400px;
@@ -8,11 +9,13 @@
 }
 
 .card-content{
+    /* width:80%; */
     display: flex;
     flex-direction: column;
     align-items: center;
     gap:20px;
     padding:20px;
+    
 }
 
 .card-heading{
@@ -34,4 +37,10 @@
     width:91px;
     height:80px;
     background-color: #E8E8E8;
+}
+
+@media screen and (max-width : 1300px){
+    .card-container{
+    
+    }
 }

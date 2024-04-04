@@ -1,19 +1,18 @@
 .service-container{
     display: flex;
-    flex-direction: column;
-    width:1250px;
-    height:1279.94px;
+    flex-direction: column; 
     margin:auto auto;
     gap:66px;
+    
 }
 
 .service-top-content{
     display: flex;
     flex-direction:column;
-    gap:94px;
     align-items: center;
     justify-content: center;
     gap:94px;
+    
 }
 
 .service-heading{
@@ -49,7 +48,6 @@
 }
 
 .services-card{
-    max-width:1250px;
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: repeat(2, auto);
@@ -81,4 +79,22 @@
     height:54px;
     background: linear-gradient(to right, rgba(17, 153, 142, 1), rgba(56, 239, 125, 1));
     color: transparent; 
+}
+
+@media screen and (max-width : 1300px){
+    .services-card{
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(3, auto);
+    }
+}
+
+@media screen and (max-width : 850px){
+    .services-card{
+        display: grid;
+        margin: 0 auto;
+        grid-template-columns: repeat(1, 1fr); 
+        grid-template-rows: repeat(6, auto);
+    }
 }
