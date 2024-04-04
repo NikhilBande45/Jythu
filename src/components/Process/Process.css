@@ -9,6 +9,7 @@
     flex-direction: column; 
     align-items: center;
     justify-content: center;  
+    gap:20px;
 }
 
 .process-top-content{
@@ -52,37 +53,18 @@
 
 .process-bottom-content{
     display: flex;
-    flex-direction: column;
     align-items: center;
-    gap:34px;
-}
-.process-image-container{
-    width:1098px;
-    height:260px;
-    display: flex;
-    align-items: center;
-    gap:159px;
+    justify-content: center;
+    gap:100px;
 }
 
-.process-text-container{
-    width:1211px;
-    height:121px;
-    display: flex;
-    align-items: center;
-    gap:46px;
-    
-}
-
-.text-item{
+.process-card{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap:20px;
-    width:373px;
-    height: 121px;
 }
-
 #process-text{
     display: flex;
     flex-direction: column;
@@ -94,4 +76,12 @@
 #process-name{
     font-size: 22px;
     font-weight: 600;
+}
+
+@media screen and (max-width:1350px){
+    .process-bottom-content{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
 }

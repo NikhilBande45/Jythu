@@ -1,10 +1,12 @@
 .market-container{
-    width:1259px;
-    height:642.49px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
     margin: auto auto;
 }
 
 .market-content{
+    max-width: 90%;
     margin-top: 40px;
     display: flex;
     align-items: center;
@@ -43,8 +45,6 @@
     display: flex;
     flex-direction: column;
     gap:57px;
-    width:626px;
-    height:642.94px;
 }
 
 .market-right-top-content{
@@ -175,4 +175,11 @@
 #mobile_no{
     font-size: 26.65px;
     font-weight: 600;
+}
+
+@media screen and (max-width:1350px){
+    .market-content{
+        display: flex;
+        flex-direction: column;
+    }
 }

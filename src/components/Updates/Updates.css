@@ -2,13 +2,14 @@
     width:100%;
     display: flex;
     justify-content: center;
+    
 }
 .updates-content{
+    width: 90%;
     display: flex;
 }
 .update-left-content{
-    width:482px;
-    height: 381.94px;
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap:40px;
@@ -78,7 +79,19 @@
 }
 
 .update-right-content{
+    width:60%;
     display: flex;
     flex-direction: column;
     gap:20px;
+}
+
+@media screen and (max-width:1350px){
+    
+    .updates-container{
+        margin-top: 800px;
+    }
+    .updates-content{
+        display: flex;
+        flex-direction: column;
+    }
 }

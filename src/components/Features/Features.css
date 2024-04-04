@@ -1,4 +1,5 @@
 .service-container{
+    width: 100%;
     display: flex;
     flex-direction: column; 
     margin:auto auto;
@@ -84,7 +85,7 @@
 @media screen and (max-width : 1300px){
     .services-card{
         display: grid;
-        margin: 0 auto;
+        margin: 0 20px;
         grid-template-columns: repeat(2, 1fr); 
         grid-template-rows: repeat(3, auto);
     }

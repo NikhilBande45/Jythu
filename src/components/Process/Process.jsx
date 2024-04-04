@@ -28,49 +28,36 @@ const Process = () => {
                     </div>
                 </div>
 
+                
                 <div className="process-bottom-content">
-                    <div className='process-image-container'>
+                    <div className='process-card'>
                         <img src={process_1} />
-                        <img src={process_2} />
-                        <img src={process_3} />
+                        <div id='process-name'>1. MARKETING PLAN</div>
+                        <div id='process-text'>
+                            <span>Lorem ipsum dolor sit amet natoque.</span>
+                            <span>Primis nam feugiat aptent vestibulum</span>
+                            <span>pulvinar torqu ent.</span>
+                        </div>
                     </div>
 
-                    <div className='process-text-container'>
-                        
-                        <div className='text-item'>
-                            <div id='process-name'>
-                                1. MARKETING PLAN
-                            </div >
-                                
-                            <div id='process-text'>
-                                <span>Lorem ipsum dolor sit amet natoque.</span>
-                                <span>Primis nam feugiat aptent vestibulum</span>
-                                <span>pulvinar torqu ent.</span>
-                            </div>
+                    <div className='process-card'>
+                        <img src={process_2} />
+                        <div id='process-name'>2. EXECUTION</div>
+                        <div id='process-text'>
+                            <span>Lorem ipsum dolor sit amet natoque.</span>
+                            <span>Primis nam feugiat aptent vestibulum</span>
+                            <span>pulvinar torqu ent.</span>
                         </div>
+                    </div>
 
-                        <div className='text-item'>
-                            <div id='process-name'>
-                                2. EXECUTION
-                            </div>
-                                
-                            <div id='process-text'>
-                                <span>Lorem ipsum dolor sit amet natoque.</span>
-                                <span>Primis nam feugiat aptent vestibulum</span>
-                                <span>pulvinar torqu ent.</span>
-                            </div>
-                        </div>
 
-                        <div className='text-item'>
-                            <div id='process-name'>
-                                3. GROWTH AND SCALE
-                            </div>
-                                
-                            <div id='process-text'>
-                                <span>Lorem ipsum dolor sit amet natoque.</span>
-                                <span>Primis nam feugiat aptent vestibulum</span>
-                                <span>pulvinar torqu ent.</span>
-                            </div>
+                    <div className='process-card'>
+                        <img src={process_3} />
+                        <div id='process-name'>1. GROWTH AND SCALE</div>
+                        <div id='process-text'>
+                            <span>Lorem ipsum dolor sit amet natoque.</span>
+                            <span>Primis nam feugiat aptent vestibulum</span>
+                            <span>pulvinar torqu ent.</span>
                         </div>
                     </div>
                 </div>
